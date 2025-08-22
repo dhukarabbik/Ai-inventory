@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx nodemon src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/sqlite3": "^3.1.11",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7"
+  }
+}

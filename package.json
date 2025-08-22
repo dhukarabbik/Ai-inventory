@@ -1,0 +1,21 @@
+{
+  "name": "ai-inventory-platform",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "npm start --workspace=client",
+    "server": "npm start --workspace=server",
+    "dev": "npm run server & npm run client"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
